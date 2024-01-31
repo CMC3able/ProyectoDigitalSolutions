@@ -22,7 +22,7 @@ class Program
         // Crea el reconocedor de rostros
         FaceRecognizer recognizer = new EigenFaceRecognizer(80, double.PositiveInfinity);
 
-        // Carga el modelo entrenado (deberías entrenar tu propio modelo antes de usarlo)
+        // Carga el modelo entrenado
         recognizer.Read("trained_model.yml");
 
         // Abre el video
